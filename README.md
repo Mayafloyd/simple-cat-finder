@@ -1,8 +1,8 @@
 #Simple Cat Finder with React and JavaScript
 by: Mayafloyd - Sara Acevedo Maya
-![alt text](https://drive.google.com/file/d/1i8FvhMCBXT1oI_Uf8Qbyv5Nz8GIx4tRK/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/187eDeLSl9M1uYbyPMb4oC8WsOVGrFclM/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/1L2PjfbfSFqpUTRurFjL-yJpWJqZBGeHq/view?usp=sharing)
+
+##API
+https://thecatapi.com/
 
 ## Getting Started with Create React App
 
