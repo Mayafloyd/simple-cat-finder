@@ -3,6 +3,35 @@ by: Mayafloyd - Sara Acevedo Maya
 
 ##API
 https://thecatapi.com/
+You can search :
+"abys"
+aege
+abob
+acur
+asho
+awir
+amau
+amis
+bali
+bamb
+beng
+bomb
+bslo
+bsho
+bure
+buri
+cspa
+ctif
+char
+chau
+chee
+csho
+crex
+cymr
+cypr
+drex
+
+and others : https://api.thecatapi.com/v1/breeds , seeing the id
 
 ## Getting Started with Create React App
 
