@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #242424;
+}
+h1 {
+  position: absolute;
+  top: 10%;
+  font-weight: 100;
+  font-size: 80px;
+  color: white;
+}
+.App {
+  text-align: center;
+  background-image: url("/public/images/background_cats.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.divSearcher {
+  width: 100%;
+}
+.divMobileCats {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .App {
+    background-color: #242424;
+    background-image: none;
+  }
+  .divMobileCats {
+    display: block;
+    width: 90%;
+  }
+  .img {
+    width: 100%;
+  }
+  h1 {
+    top: 5%;
+    font-size: 70px;
+  }
+  .divSearcher {
+    position: absolute;
+  }
+}

@@ -1,0 +1,37 @@
+.inputSearcher {
+  height: 65px;
+  width: 60%;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 5px 32px 0 rgba(31, 93, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s;
+}
+.inputSearcher:hover {
+  box-shadow: 0 5px 32px 0 rgba(125, 43, 114, 0.37);
+}
+input:focus {
+  outline: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+.searchContainer {
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  background-color: #8ba9f1;
+}
+.searchContainer:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
